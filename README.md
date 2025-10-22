@@ -22,6 +22,26 @@ Zamišljen je kao praktičan primer **web mining** sistema koji može pomoći u 
 - Graf povezanosti entiteta  
 
 ---
+## 💻 Testiranje na Google Colab-u
+
+Pre nego što je projekat finalizovan i pripremljen za lokalno pokretanje, **ceo razvoj i testiranje je izvršeno na Google Colab-u**.  
+
+Razlozi za korišćenje Colab-a:
+- **Brzo eksperimentisanje** sa velikim NLP modelima (BERT, Sentence-BERT) bez potrebe za lokalnom GPU infrastrukturom.  
+- **Jednostavna instalacija zavisnosti** preko `pip` komandi direktno u Colab okruženju.  
+- **Interaktivna provera rezultata**, vizualizacija i analiza podataka, gde su grafici i WordCloud-ovi mogli odmah da se prikažu u notebook-u.  
+
+Šta je testirano:
+1. **Scraping i prikupljanje podataka** sa BBC RSS feed-a.  
+2. **NER ekstrakcija** imenovanih entiteta pomoću BERT modela.  
+3. **Sentence-BERT embeddings** i kreiranje vektorskih reprezentacija rečenica.  
+4. **K-Means klasterovanje** i određivanje optimalnog broja klastera.  
+5. **Validacija klastera** i generisanje TF-IDF ključnih reči.  
+6. **Vizualizacije**: PCA dijagrami, WordCloud za teme i graf povezanosti entiteta.  
+
+Nakon što je ceo pipeline uspešno testiran i validiran u Colab-u, projekat je prebačen i pripremljen za **lokalno pokretanje** pomoću `main.py` i folder strukture opisane u ovom README-u.
+
+> Google Colab je poslužio kao idealno testno okruženje za razvoj, jer je omogućio brzu iteraciju, vizualnu proveru rezultata i rad sa zahtevnijim NLP modelima bez lokalnih ograničenja.
 
 ## 🧩 Struktura projekta  
 

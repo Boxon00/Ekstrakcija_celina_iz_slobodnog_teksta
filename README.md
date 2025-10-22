@@ -25,25 +25,31 @@ Zamišljen je kao praktičan primer **web mining** sistema koji može pomoći u 
 
 ## 🧩 Struktura projekta  
 
+## 🧩 Struktura projekta
+
+```
 web_mining_project/
 │
-├─ modules/                # Funkcionalni delovi projekta
+├─ modules/                     # Funkcionalni delovi projekta
 │   ├─ __init__.py
-│   ├─ scraper.py          # Prikupljanje vesti sa BBC RSS feed-a
-│   ├─ ner_bert.py         # BERT NER pipeline i ekstrakcija entiteta
-│   ├─ embeddings.py       # Sentence-BERT embeddings
-│   ├─ clustering.py       # K-Means klasterovanje i optimalan broj klastera
-│   ├─ validation.py       # Validacija i evaluacija klastera
-│   ├─ tfidf_keywords.py   # TF-IDF analiza ključnih reči
-│   ├─ visualization/      # Podfolder za sve vizualizacije
+│   ├─ scraper.py               # Prikupljanje vesti sa BBC RSS feed-a
+│   ├─ ner_bert.py              # BERT NER pipeline i ekstrakcija entiteta
+│   ├─ embeddings.py            # Sentence-BERT embeddings
+│   ├─ clustering.py            # K-Means klasterovanje i optimalan broj klastera
+│   ├─ validation.py            # Validacija i evaluacija klastera
+│   ├─ tfidf_keywords.py        # TF-IDF analiza ključnih reči
+│   ├─ visualization/           # Podfolder za sve vizualizacije
 │   │   ├─ __init__.py
-│   │   ├─ pca_plot.py     # PCA dijagram klastera
-│   │   ├─ wordcloud_plot.py # WordCloud prikaz tema
-│   │   └─ network_graph.py  # Graf povezanosti entiteta
-├─ results/                # Folder gde se automatski čuvaju slike i grafici
-├─ main.py                 # Glavni fajl koji pokreće ceo projekat
-├─ README.md               # Opis projekta
-└─ requirements.txt        # Lista potrebnih Python biblioteka
+│   │   ├─ pca_plot.py          # PCA dijagram klastera
+│   │   ├─ wordcloud_plot.py    # WordCloud prikaz tema
+│   │   └─ network_graph.py     # Graf povezanosti entiteta
+│
+├─ results/                     # Folder gde se automatski čuvaju slike i grafici
+│
+├─ main.py                      # Glavni fajl koji pokreće ceo projekat
+├─ README.md                    # Opis projekta
+└─ requirements.txt              # Lista potrebnih Python biblioteka
+
 ```
 
 ## 🛠️ Instalacija i pokretanje  

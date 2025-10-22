@@ -1,0 +1,12 @@
+torch
+transformers
+sentence-transformers
+scikit-learn
+beautifulsoup4
+requests
+feedparser
+matplotlib
+seaborn
+networkx
+wordcloud
+numpy

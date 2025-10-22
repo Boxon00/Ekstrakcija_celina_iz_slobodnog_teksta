@@ -25,8 +25,6 @@ Zamišljen je kao praktičan primer **web mining** sistema koji može pomoći u 
 
 ## 🧩 Struktura projekta  
 
-## 🧩 Struktura projekta
-
 ```
 web_mining_project/
 │

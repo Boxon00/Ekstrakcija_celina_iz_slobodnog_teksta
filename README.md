@@ -46,7 +46,7 @@ web_mining_project/
 │
 ├─ main.py                      # Glavni fajl koji pokreće ceo projekat
 ├─ README.md                    # Opis projekta
-└─ requirements.txt              # Lista potrebnih Python biblioteka
+└─ requirements.txt             # Lista potrebnih Python biblioteka
 
 ```
 

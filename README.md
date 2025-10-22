@@ -46,8 +46,6 @@ web_mining_project/
 └─ requirements.txt        # Lista potrebnih Python biblioteka
 ```
 
----
-
 ## 🛠️ Instalacija i pokretanje  
 
 1. **Kloniraj repozitorijum:**
